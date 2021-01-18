@@ -39,6 +39,9 @@
 - [ ] Black Market??
 ###### Could be used to purchase equipment for robberies and heists
 
+### Threat Index System
+###### Every time you participate in a robbery, heist, or buy items from the black market you will be adding to your "ThreatScore". At random times the USN Goverment will find one user on the threat index and attempt to apprehend them. The higher the ThreatScore, the higher chance you are found. Upon the Govt. finding an individual to apprehened, the user will be able to evade capture similar to the defened system with robberies.
+
 ### Robberies & Heist System
 > Robberies
 - [ ] `/rob` Command
