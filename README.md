@@ -36,6 +36,7 @@
   - [ ] Tradeable inventories system
 
 - [ ] Black Market??
+###### Could be used to purchase equipment for robberies and heists
 
 ### Robberies & Heist System
 > Robberies
