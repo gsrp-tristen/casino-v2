@@ -17,6 +17,7 @@
   - [ ] NixxCoin Balance
   - [ ] Account Age
   - [ ] Account Inventory
+  - [ ] Account Enabled
   - [ ] "Threat Index" (Explained Later)
 - [ ] `/openaccount` Command
 - [ ] `/closeaccount` Command
