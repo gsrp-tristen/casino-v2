@@ -5,6 +5,8 @@
 ###### We'll be switching from a traditional command handler, `!command`, to using Discord's new Interactions system (slash commands)
 - [x] Setup interactions handler
 - [x] Register the `"INTERACTIONS_CREATE"` WebSocket event on client ready
+
+![Interactions Working](https://www.sup-my.ninja/ss/opFh43.png)
 - [x] Setup new Mongo database
 - [ ] Implement the "Casino Economy"
   - [ ] Setup all transactions through the `USN Casino` bot user
@@ -22,7 +24,11 @@
   - [x] Account Activities
   - [x] "Threat Index" (Explained Later)
 - [x] `/openaccount` Command
+
+![Account Creation Embed](https://www.sup-my.ninja/ss/WJgjti.png)
 - [x] `/closeaccount` Command
+
+![Account Deletion Embed](https://www.sup-my.ninja/ss/aZcCXn.png)
 
 ### USN Store / Casino Shop
 ###### Version 2 will finally include this system. We may introduce a "player shop" system at some point but for the release, all items will be through the official shop. Users will be able to purchase items of different rarity. Static items, costmetic "role(s)", priority queue, and maybe even special access to a vehicle
