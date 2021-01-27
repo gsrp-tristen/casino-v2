@@ -3,24 +3,26 @@
 ### Backend Improvements & Optimizations
 > Discord Interactions
 ###### We'll be switching from a traditional command handler, `!command`, to using Discord's new Interactions system (slash commands)
-- [ ] Setup interactions handler
-- [ ] Register the `"INTERACTIONS_CREATE"` WebSocket event on client ready
-- [ ] Setup new Mongo database
+- [x] Setup interactions handler
+- [x] Register the `"INTERACTIONS_CREATE"` WebSocket event on client ready
+- [x] Setup new Mongo database
 - [ ] Implement the "Casino Economy"
   - [ ] Setup all transactions through the `USN Casino` bot user
 
 ### Casino Account System
 ###### Basically a "Create-an-Account" system. The main premise being, you can only see the #casino-usn channel if you register an account. Hopefully this will prevent everyone getting pinged about robberies every day if they don't want to participate in the casino. Also adds the possibility for the casino being opened to everyone (not just Admin+)
-- [ ] Re-design user documents in Mongo
-  - [ ] Account ID / Account Number
-  - [ ] Cash Balance
-  - [ ] NixxCoin Balance
-  - [ ] Account Age
-  - [ ] Account Inventory
-  - [ ] Account Enabled
-  - [ ] "Threat Index" (Explained Later)
-- [ ] `/openaccount` Command
-- [ ] `/closeaccount` Command
+- [x] Re-design user documents in Mongo
+  - [x] Account ID / Account Number
+  - [x] Cash Balance
+  - [x] Dirty Cash Balance
+  - [x] NixxCoin Balance
+  - [x] Account Age
+  - [x] Account Inventory
+  - [x] Account Enabled
+  - [x] Account Activities
+  - [x] "Threat Index" (Explained Later)
+- [x] `/openaccount` Command
+- [x] `/closeaccount` Command
 
 ### USN Store / Casino Shop
 ###### Version 2 will finally include this system. We may introduce a "player shop" system at some point but for the release, all items will be through the official shop. Users will be able to purchase items of different rarity. Static items, costmetic "role(s)", priority queue, and maybe even special access to a vehicle
